@@ -1,0 +1,83 @@
+.article-card-container{
+  display: flex;
+  flex-direction: column;
+  margin: 0px 15px 15px 15px;
+}
+
+.article-card img{
+  max-width: 400px;
+}
+
+.article-card{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 400px;
+}
+
+.article-title{
+  font-size: 24px;
+  text-align: center;
+  padding: 5px 10px 0px 10px;
+  text-align: start;
+  font-family: Utopia;
+}
+
+.article-divider{
+  height: 1px;
+  width: 45%;
+  border-radius: 10px;
+  background-color: rgb(37, 37, 37);
+  margin-top: 13px;
+  margin-bottom: 3px;
+}
+
+.article-description{
+  font-size: 15px;
+  font-family: Utopia;
+  text-align: center;
+  font-weight: 300;
+  padding: 15px;
+}
+
+.data-section{
+  display: flex;
+  flex-direction: row;
+  width: 75%;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.data-section span{
+  padding-left: 2px;
+  font-size: 13px;
+} 
+
+.vertical-centered{
+ display: flex;
+ align-items: center;
+}
+
+.more{
+  text-decoration: underline;
+}
+
+
+.articles-section{
+ display: flex;
+ max-width: 78%;
+ flex-wrap: wrap;
+ border-right: solid 1px black;
+}
+
+.news-container .quick-infos-section{
+  width: 22%;
+  margin-left: 18px;
+} 
+
+@media screen and (max-width: 900px) {
+  .articles-section{
+    border: none;
+    padding-bottom: 36px;
+  }
+}

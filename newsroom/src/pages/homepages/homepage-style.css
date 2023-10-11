@@ -1,0 +1,27 @@
+.homepage-container{
+  display: flex;
+  justify-content: center;
+}
+
+
+.content{
+  width: 1140px;
+ min-height: 100vh;
+}
+
+
+.news-container{
+  padding-top: 50px;
+  display: flex;
+}
+
+
+
+@media screen and (max-width: 900px) {
+  .news-container{
+    flex-direction: column;
+  }
+  .homepage-container{
+    padding-left: 70px;
+  }
+}

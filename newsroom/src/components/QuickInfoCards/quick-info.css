@@ -1,0 +1,21 @@
+.quick-card{
+  font-family: Utopia;
+  margin-top: 20px;
+}
+.quick-title{
+  font-size: 25px;
+  font-weight: 600;
+}
+.quick-description{
+  font-size: 15px;
+  padding-top: 5px;
+  font-weight: 300;
+}
+
+@media screen and (max-width: 900px) {
+  .quick-info-section{
+    border-top: solid 1px black;
+    width: 60vh;
+    padding-bottom: 18px;
+  }
+}

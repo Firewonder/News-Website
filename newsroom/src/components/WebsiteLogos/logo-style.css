@@ -1,0 +1,19 @@
+.logo-container{
+  font-size: 50px;
+  margin-left: 20px;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: 450;
+  border-bottom: solid 1px black;
+  background-color: white;
+}
+
+.logo-new-container{
+  font-size: 50px;
+  margin-left: 20px;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: 450;
+  position: fixed;
+  border-bottom: solid 1px black;
+  width: 100%;
+  background-color: white;
+}
